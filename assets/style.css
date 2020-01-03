@@ -1,0 +1,85 @@
+#navbar {
+	background-color: #3179af;
+}
+#navbar .nav-link{
+	font-size: larger;
+    font-weight: 500;
+    color: #ffffff;
+    width: max-content;
+
+}
+#navbar .nav-item{
+	padding-right: 20px;
+}
+#tabelmasuk .aksi{
+	color: white;
+}
+#welcome .card{
+	border-radius: 33px;
+	margin-bottom: 30px;
+	height: 45px;
+}
+
+#welcome .card .card-body{
+	font-size: 24px;
+	color: #ffffff;
+	margin-top: -20px;
+}
+#total{
+	margin-top: 30px;
+	color: #fff;
+}
+#total .card{
+	border-radius: 33px;	
+}
+#total .card-body{
+	margin-bottom: -10px;	
+}
+#total .deskripsi{
+	margin-right: 15px;	
+}
+
+#total .deskripsi h1{
+	text-align: center;	
+}
+#total .deskripsi p{
+	font-size: 15px;
+	font-weight: bold;
+}
+/*page surat masuk*/
+#suratmasuk .card{
+	border-radius: 10px;
+	height: 45px;
+	color: #ffffff;
+}
+#suratmasuk .card h3{
+	margin-top:-17px;
+}
+#suratkeluar .card{
+	border-radius: 10px;
+	height: 45px;
+	color: #ffffff;
+}
+#suratkeluar .card h3{
+	margin-top:-17px;
+}
+#suratkeluar .card form{
+	margin-top:-17px;
+	padding-left: 220px
+}
+#detailsktm .card{
+	border-radius: 10px;
+	height: 45px;
+	color: #ffffff;
+}
+#detailsktm .card h3{
+	margin-top:-17px;
+}
+#syaratsktm {
+	margin-top: 20px;
+}
+.datasktm {
+	margin-top: 40px;
+	
+	padding: 5px;
+}
