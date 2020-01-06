@@ -14,52 +14,59 @@
   </head>
   <body>
 <section id="navbar">
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary ">
-      <div class="container">
-  <a class="navbar-brand" href="#"><h3>Kelurahan Condongcatur</h3></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse  " id="navbarSupportedContent">
-    <ul class="navbar-nav " >
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Kelola User</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Pengaturan
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Backup Database</a>
-          <a class="dropdown-item" href="#">Restore Database</a>
-         
-        </div>
-      </li>
-      
-    </ul>
-    <ul class="navbar-nav " style="margin-left: 245px;">
-      <li class="nav-item dropdown mr-auto">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fa fa-user-circle mr-2"></i>Salamander Gutama
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Edit Profil</a>
-          <a class="dropdown-item" href="#">Ubah Password</a>
-          <div class="dropdown-divider"></div>
-           <a class="dropdown-item" href="#"><i class="fa fa-power-off mr-2" aria-hidden="true"></i>Logout</a>
-         
-        </div>
-      </li>
-    </ul>
-   
-  </div>
-  </div>
-</nav>
-</section>
+      <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+          <div class="container">
+              <a class="navbar-brand" href="admin.html">Kelurahan Condongcatur</a>
+          
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                  <a class="nav-link" href="admin.html"><i class="fa fa-home" aria-hidden="true"></i>
+                    Beranda</a>
+                  </li>
+  
+                  <li class="nav-item">
+                  <a class="nav-link" href="kelolaoperator.html"><i class="fa fa-user-plus" aria-hidden="true"></i>
+                    Kelola User</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-cog" aria-hidden="true"></i>
+                    Pengaturan
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="backupdata.html"><i class="fa fa-cloud-download" aria-hidden="true"></i>
+                         Backup Database</a>
+                      <a class="dropdown-item" href="restoredata.html"><i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                         Restore Database</a>
+                  </div>
+                  </li>
+              </ul>
+              
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                    Bambang irwanto
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="editprofil.html"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit Profil</a>
+                    <a class="dropdown-item" href="ubahpassword.html"><i class="fa fa-key" aria-hidden="true"></i> Ubah Password</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../login.html"><i class="fa fa-power-off mr-2" aria-hidden="true"></i>Logout</a>
+                  </div>
+                  </li>
+              </ul>
+  
+              </div>
+          </div>
+        </nav>
+      </section>
 <!-- end navbar -->
 <!-- welcome  -->
 <section id="suratkeluar" class="mt-3" style="margin-bottom: 20px;">
@@ -69,19 +76,17 @@
       <div class="card-body">
        <div class="row">
           <div class="col">
-            <h3><i class="fa fa-users  mr-2" aria-hidden="true"></i>Kelola User </h3>
+            <h3><i class="fa fa-users  mr-2" aria-hidden="true"></i>Kelola Operator </h3>
           </div>
           <div class="col" style="text-align: right; margin-top: -18px;">
-            <button type="button" class="btn btn-primary rounded">
-              <i class="fa fa-plus  mr-2" aria-hidden="true"></i>tambahdata</button>
+            <a href="tambahuser.html" class="btn btn-primary rounded active" role="button" aria-pressed="true">
+              <i class="fa fa-plus  mr-2" aria-hidden="true"></i>tambahuser
+            </a>
+              
           </div>
         </div>
       </div>
     </div>
-    <form class="form-inline ">
-                <input class="form-control mr-sm-2 border border-primary" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
-              </form>
   </div>
 </section>
 <!-- /welcome  -->
@@ -103,42 +108,48 @@
           <th scope="row">1</th>
           <td>Rudi Ardiansyah</td>
           <td>Rudi123</td>
-          <td>user</td>
+          <td>operator</td>
           <td style="text-align: center;" >
-            <button type="button" class="aksi btn btn-info " >
-              <i class="fa fa-pencil-square-o mr-2" aria-hidden="true"></i>EDIT
-            </button>
-            <button type="button" class="aksi btn btn-danger " >
-              <i class="fa fa-trash-o mr-2" aria-hidden="true"></i>HAPUS
-            </button>
+           <a href="edituser.html" class="btn btn-info rounded " role="button" aria-pressed="true">
+              <i class="fa fa-pencil-square-o  mr-2" aria-hidden="true"></i>EDIT
+            </a>
+           <a href="" class="btn btn-danger rounded " role="button" aria-pressed="true">
+              <i class="fa fa-trash-o  mr-2" aria-hidden="true"></i>HAPUS
+            </a>
             </td>
         </tr>
         <tr>
           <th scope="row">2</th>
           <td>Bambang Nugroho</td>
           <td>bambang123</td>
-          <td>user</td>
+          <td>operator</td>
           <td >
-            <button type="button" class="aksi btn btn-info " >
-              <i class="fa fa-pencil-square-o mr-2" aria-hidden="true"></i>EDIT
-            </button>
-            <button type="button" class="aksi btn btn-danger " >
-              <i class="fa fa-trash-o mr-2" aria-hidden="true"></i>HAPUS
-            </button>
+            <a href="edituser.html" class="btn btn-info rounded " role="button" aria-pressed="true">
+              <i class="fa fa-pencil-square-o  mr-2" aria-hidden="true"></i>EDIT
+            </a>
+           <a href="" class="btn btn-danger rounded " role="button" aria-pressed="true">
+              <i class="fa fa-trash-o  mr-2" aria-hidden="true"></i>HAPUS
+            </a>
             </td>
         </tr>
         <tr>
           <th scope="row">3</th>
           <td>Iwan Santoso</td>
           <td>iwan 123</td>
-          <td>user</td>
+          <td>operator</td>
           <td >
-            <button type="button" class="aksi btn btn-info " >
+            <!-- <button type="button" class="aksi btn btn-info " >
               <i class="fa fa-pencil-square-o mr-2" aria-hidden="true"></i>EDIT
             </button>
             <button type="button" class="aksi btn btn-danger " >
               <i class="fa fa-trash-o mr-2" aria-hidden="true"></i>HAPUS
-            </button>
+            </button> -->
+             <a href="edituser.html" class="btn btn-info rounded " role="button" aria-pressed="true">
+              <i class="fa fa-pencil-square-o  mr-2" aria-hidden="true"></i>EDIT
+            </a>
+           <a href="" class="btn btn-danger rounded " role="button" aria-pressed="true">
+              <i class="fa fa-trash-o  mr-2" aria-hidden="true"></i>HAPUS
+            </a>
             </td>
         </tr>
 
