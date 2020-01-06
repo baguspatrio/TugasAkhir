@@ -6,11 +6,11 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
-<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Pelayanan Umum</title>
+    <link href="../assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/style.css">
+    <title>Halaman Admin</title>
   </head>
   <body>
 <section id="navbar">
@@ -31,16 +31,13 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Transaksi
+          Pengaturan
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Surat Masuk</a>
-          <a class="dropdown-item" href="#">Surat Keluar</a>
+          <a class="dropdown-item" href="#">Backup Database</a>
+          <a class="dropdown-item" href="#">Restore Database</a>
          
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Laporan</a>
       </li>
       
     </ul>
@@ -65,77 +62,29 @@
 </section>
 <!-- end navbar -->
 <!-- welcome  -->
-<section id="welcome" class="mt-3">
+<section id="suratmasuk" class="mt-3" style="margin-bottom: 20px;">
   <div class="container">
-    <div class="card bg-success">
+   <div class="card bg-dark">
      
       <div class="card-body">
-        
-        Semoga Kerja mu hari ini menyenangkan
+        <h3><i class="fa fa-database   mr-2" aria-hidden="true"></i>BACKUP DATA BASE </h3>
       </div>
     </div>
   </div>
 </section>
 <!-- /welcome  -->
-<!-- content -->
-<section id="total" >
-<div class="container">
-  <!-- row -->
-  <div class="row">
-      <div class="col-sm-4 ">
-        <div class="card bg-primary">
-          <div class="card-body">
-            
-              <div class="row">
-              <div class="col" style="text-align: center;">
-                <i class="fa fa-user-circle fa-5x "></i>
-              </div>
-              <div class="col deskripsi">
-                 <h1>200</h1><p>Total Pengguna</p>
-               </div>
-             </div>
-             <!-- endrow -->
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4 ">
-        <div class="card bg-danger">
-          <div class="card-body">
-
-            <div class="row">
-              <div class="col" style="text-align: center;">
-                <i class="fa fa-user-circle fa-5x "></i>
-              </div>
-              <div class="col deskripsi">
-                 <h1>200</h1><p>Total Operator</p>
-               </div>
-             </div>
-             <!-- endrow -->
-           
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4 ">
-        <div class="card bg-success">
-          <div class="card-body">
-             <div class="row">
-              <div class="col" style="text-align: center;">
-                <i class="fa fa-user-circle fa-5x "></i>
-              </div>
-              <div class="col deskripsi">
-                 <h1>200</h1><p>Total Permohonan</p>
-               </div>
-             </div>
-             <!-- endrow -->
-           
-          </div>
-        </div>
+<section>
+  <div class="container">
+    <div class="card " style="background-color: #BBDEFB;">
+      <div class="card-body">
+        <h5 class="card-title">Backup Database</h5>
+        <p class="card-text">Lakukan backup database secara berkala untuk membuat cadangan database yang bisa direstore kapan saja ketika dibutuhkan. Silakan klik tombol "Backup" untuk memulai proses backup data.Setelah proses backup selesai, silakan download file backup database tersebut dan simpan di lokasi yang aman.*</p>
+         <p class="card-text"><i class="fa fa-exclamation-circle" aria-hidden="true" style="color: red;">* </i>Sangat tidak disarankan menyimpan file backup database dalam my documents / Local Disk C.</p>
+        <a href="#" class="btn btn-primary">BACKUP</a>
       </div>
     </div>
-  
- </div>
+  </div>
 </section>
-   <!--/content  -->
   </body>
    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
